@@ -1,0 +1,70 @@
+.feedback-card {
+  background-color: #004D79;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 50px;
+  text-align: left;
+}
+.feedback-card .feedback-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.feedback-card .feedback-header .client-box {
+  display: flex;
+  align-items: center;
+}
+.feedback-card .feedback-header .client-box .profile-image {
+  max-width: 65px;
+  border-radius: 50%;
+}
+.feedback-card .feedback-header .client-box .feedback-description {
+  text-align: left;
+  margin-left: 20px;
+}
+.feedback-card .feedback-header .client-box .feedback-description .name {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif !important;
+}
+.feedback-card .feedback-header .client-box .feedback-description .position {
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+  margin-top: 5px;
+  color: #b4b7c9;
+  font-family: "Inter", sans-serif;
+}
+.feedback-card .feedback-header .quote {
+  font-size: 125px;
+  color: #a9a9c8;
+  line-height: initial;
+  font-family: "Josefin Sans", sans-serif !important;
+}
+.feedback-card .feedback-text {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif !important;
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  .feedback-card {
+    padding: 25px;
+  }
+  .feedback-card .feedback-header .client-box .profile-image {
+    width: 45px;
+  }
+  .feedback-card .feedback-header .client-box .feedback-description .position {
+    font-size: 12px;
+  }
+  .feedback-card .feedback-header .quote {
+    display: none;
+  }
+  .feedback-card .feedback-header .client-box {
+    width: 100% !important;
+  }
+  .feedback-card .feedback-text {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=index.css.map */

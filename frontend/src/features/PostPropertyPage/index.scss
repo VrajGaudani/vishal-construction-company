@@ -1,0 +1,231 @@
+.post-property-page {
+  .filter-section {
+    width: 100%;
+    // height: 950px;
+    background-color: #e2dad7;
+    .main-filter {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 120px;
+      padding-bottom: 120px;
+      .sub-label {
+        background-color: #EE8824;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.7px;
+        margin-bottom: 22px;
+        color: #ffffff;
+        padding: 5px 15px;
+        font-family: "Inter", sans-serif;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 72px;
+        text-align: left;
+        width: 100%;
+      }
+      .tabs {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 25px;
+        border-bottom: 1px solid rgba(180, 183, 201, 0.15);
+        .tab {
+          padding: 15px 0px;
+          display: inline-block;
+          span {
+            cursor: pointer;
+            padding: 0 50px;
+            font-weight: 700;
+            font-size: 15px;
+          }
+          span:hover {
+            color: #004D79;
+          }
+          .first-tab {
+            border-right: 1px solid #b4b7c9;
+          }
+        }
+        .selected {
+          border-bottom: 3px solid #004D79;
+          color: #004D79 !important;
+        }
+      }
+      .input-box {
+        width: 18%;
+        text-align: left;
+        margin: 10px 10px;
+        input {
+          &::placeholder {
+            font-size: 13px;
+          }
+        }
+        .text-field {
+          width: 100%;
+        }
+        .filter-label {
+          font-size: 15px !important;
+          font-family: "Inter", sans-serif !important;
+        }
+        .upload-div {
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #687693;
+          cursor: pointer;
+          font-family: "Inter", sans-serif !important;
+        }
+      }
+      .search-button {
+        background-color: #004D79;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 15px;
+        margin-left: 10px;
+        border-radius: 50px;
+        margin-top: 22px;
+        cursor: pointer;
+        font-family: "Josefin Sans", sans-serif !important;
+        display: flex;
+        align-items: center ;
+      }
+      .form-label {
+        font-size: 18px;
+        font-family: "Gloock", serif !important;
+        font-weight: 500 !important;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .sub-label-text {
+      }
+      .property-feature-section {
+        .input-box {
+          width: 18%;
+        }
+      }
+      .MuiFormControlLabel-label {
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+      }
+    }
+    // .vertical-slider {
+    // }
+  }
+  .MuiOutlinedInput-input {
+    border: none !important;
+    background-color: white !important;
+    border-radius: 8px !important;
+    color: #687693;
+  }
+  .MuiOutlinedInput-notchedOutline {
+    border: none !important;
+  }
+}
+@media (max-width: 1440px) {
+  .post-property-page .filter-section .main-filter {
+    padding: 80px 20px;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .post-property-page .filter-section .main-filter h1 {
+    font-size: 40px;
+  }
+  .post-property-page .filter-section .main-filter .tabs {
+    margin-bottom: 0px;
+  }
+  .post-property-page .filter-section .main-filter .input-box {
+    width: 22% !important;
+  }
+}
+@media (max-width: 1200px) {
+  .filter-section .main-filter {
+    width: 100% !important;
+    justify-content: flex-start;
+  }
+  .filter-section .main-filter h1 {
+    width: 100%;
+  }
+  .post-property-page .filter-section .main-filter .input-box {
+    width: 31% !important;
+  }
+}
+@media (max-width: 960px) {
+  .post-property-page .filter-section .main-filter .input-box {
+    width: 45% !important;
+  }
+  .post-property-page .filter-section .main-filter h1 {
+    font-size: 30px;
+  }
+  .post-property-page .filter-section .main-filter .sub-label {
+    font-size: 12px;
+  }
+}
+@media (max-width: 780px) {
+  .post-property-page .filter-section .main-filter .input-box {
+    width: 46% !important;
+  }
+}
+@media (max-width: 600px) {
+  .filter-section .main-filter .sub-label {
+    font-size: 12px !important;
+  }
+  .filter-section .main-filter {
+    padding: 50px 16px !important;
+  }
+  .filter-section .main-filter h1 {
+    font-size: 28px !important;
+  }
+  .filter-section .main-filter .tabs .tab .first-tab,
+  .filter-section .main-filter .tabs .tab span {
+    padding: 0 25px !important;
+    font-size: 14px !important;
+  }
+  .post-property-page .filter-section .main-filter .input-box {
+    width: 70% !important;
+    margin: 10px 0px !important;
+  }
+  .post-property-page .filter-section .main-filter .tabs .tab .first-tab {
+    padding: 0px 15px !important;
+  }
+  .post-property-page .filter-section .main-filter .tabs .tab {
+    padding: 10px 0px !important;
+  }
+  .post-property-page .filter-section .main-filter .form-label {
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+  }
+  .post-property-page .MuiOutlinedInput-input {
+    padding: 10px 14px !important;
+  }
+  .Property-detail-section .MuiFormGroup-row,
+  .Property-detail-section .MuiFormGroup-row .MuiFormControlLabel-label {
+    font-size: 13px !important;
+  }
+  .Property-detail-section .MuiFormGroup-row .radio-button {
+    padding: 0px !important;
+    margin-left: 5px;
+  }
+  .radio-group {
+    padding-left: 0px !important;
+  }
+  .post-property-page .filter-section .main-filter .search-button{
+    padding: 7px 11px !important;
+  }
+  .post-property-page .filter-section .main-filter .MuiFormControlLabel-label{
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  .post-property-page .filter-section .main-filter .input-box {
+    width: 90% !important;
+  }
+}
+@media (max-width: 360px) {
+  .post-property-page .filter-section .main-filter .input-box {
+    width: 100% !important;
+  }
+}

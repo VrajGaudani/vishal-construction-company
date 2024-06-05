@@ -1,0 +1,214 @@
+.rent-sell-page {
+  width: 100%;
+}
+.rent-sell-page .deals-box {
+  border-bottom: 1px solid #687693;
+  margin: 50px auto;
+  width: 100%;
+  padding: 20px;
+}
+.rent-sell-page .MuiOutlinedInput-input {
+  border: none !important;
+  background-color: white !important;
+  border-radius: 30px !important;
+  color: #687693;
+}
+.rent-sell-page .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.rent-sell-page .card-main {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+.rent-sell-page .card-main .card-media {
+  width: 40%;
+  height: 380px;
+}
+.rent-sell-page .card-main .Featured-label-box {
+  padding: 12px;
+}
+.rent-sell-page .card-main .Featured-label-box .Featured-label {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 1s;
+}
+.rent-sell-page .card-main .Featured-label-box .Featured-label:hover {
+  background-color: #004D79;
+}
+.rent-sell-page .card-main .card-Content {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.rent-sell-page .card-main .card-Content .options-box {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  width: 100%;
+  justify-content: space-between;
+}
+.rent-sell-page .card-main .card-Content .options-box .share-box {
+  width: 100%;
+}
+.rent-sell-page .card-main .card-Content .options-box .share-box .Featured-label-box {
+  display: flex;
+}
+.rent-sell-page .card-main .card-Content .options-box .options-description {
+  text-align: left;
+}
+.rent-sell-page .card-main .card-Content .options-box .options-description .h6 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Gloock", serif !important;
+  color: #000000;
+  transition: all 1s;
+}
+.rent-sell-page .card-main .card-Content .options-box .options-description .span {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  color: #687693;
+}
+.rent-sell-page .card-main .card-Content .options-box .options-description .h6:hover {
+  color: #004D79;
+}
+.rent-sell-page .card-main .card-Content .features-box {
+  width: 100%;
+  display: flex;
+}
+.rent-sell-page .card-main .card-Content .features-box .diffrent-field {
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+}
+.rent-sell-page .card-main .card-Content .features-box .diffrent-field .features-icon {
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #EE8824;
+}
+.rent-sell-page .card-main .card-Content .features-box .diffrent-field .numbers-feature {
+  margin-left: 8px;
+}
+.rent-sell-page .card-main .card-Content .share-box {
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.49);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rent-sell-page .card-main .card-Content .share-box .price {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Gloock", serif !important;
+  color: #004D79;
+}
+.rent-sell-page .card-main .card-Content .share-box .share {
+  border: 1px solid #b4b7c9;
+  padding: 3px 20px;
+  border-radius: 5px;
+  transition: all 1s;
+  cursor: pointer;
+}
+.rent-sell-page .card-main .card-Content .share-box .share .share-icon {
+  transition: all 1s;
+  color: #b4b7c9;
+}
+.rent-sell-page .card-main .card-Content .share-box .share:hover {
+  background-color: #004D79;
+  border: 1px solid #004D79;
+}
+.rent-sell-page .card-main .card-Content .share-box .share:hover .share-icon {
+  color: #ffffff;
+}
+.rent-sell-page .card-main .card-Content .share-box .username {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1200px) {
+  .rent-sell-page .card-main .card-media {
+    height: 350px !important;
+  }
+}
+@media (max-width: 990px) {
+  .rent-sell-page .card-main .card-Content {
+    padding: 20px 15px !important;
+  }
+  .rent-sell-page .card-main .card-media {
+    height: 260px !important;
+  }
+  .rent-sell-page .card-main .card-Content .options-box .share-box .Featured-label-box {
+    padding: 0px;
+  }
+  .rent-sell-page .card-main .card-Content .options-box .options-description {
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 770px) {
+  .rent-sell-page .card-main {
+    flex-wrap: wrap;
+  }
+  .rent-sell-page .card-main .card-media {
+    width: 100%;
+  }
+  .rent-sell-page .card-main .card-Content {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .rent-sell-page .card-main .Featured-label-box .Featured-label {
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-right: 10px !important;
+    font-weight: 400;
+  }
+  .rent-sell-page .card-main .card-Content {
+    padding: 20px 10px !important;
+  }
+  .rent-sell-page .card-main .card-Content .share-box {
+    padding-top: 0px;
+  }
+  .rent-sell-page .card-main .card-Content .features-box .diffrent-field .features-icon {
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+  }
+  .rent-sell-page .card-main .card-Content .features-box .diffrent-field .numbers-feature {
+    margin-left: 4px;
+  }
+  .rent-sell-page .card-main .card-Content .features-box .diffrent-field {
+    margin-right: 8px;
+  }
+  .rent-sell-page .card-main .card-Content .options-box .options-description .h6 {
+    font-size: 18px;
+  }
+  .rent-sell-page .card-main .card-Content .options-box .options-description .span,
+  .rent-sell-page .card-main .card-Content .share-box .username {
+    font-size: 14px;
+  }
+  .rent-sell-page .card-main .card-Content .share-box .price {
+    font-size: 20px;
+  }
+}
+@media (max-width: 370px) {
+  .rent-sell-page .deals-box {
+    width: 90%;
+  }
+}
+.rent-sell-page .card-main .card-Content .share-box {
+  border: none !important;
+}/*# sourceMappingURL=index.css.map */

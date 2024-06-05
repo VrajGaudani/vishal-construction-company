@@ -1,0 +1,257 @@
+.detailed-property-page .image-section .image-slider-section .image-slide {
+  width: 50%;
+  height: 600px;
+  margin-top: 30px;
+}
+.detailed-property-page .detailed-property-container .Career-box {
+  position: relative;
+  z-index: 99;
+  background-color: #edf4f7 !important;
+  padding: 35px;
+  border-radius: 5px;
+  margin-top: -35px;
+  margin-bottom: 15px;
+}
+.detailed-property-page .detailed-property-container .Career-box h4 {
+  font-family: "Gloock", serif !important;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.detailed-property-page .detailed-property-container .Career-box .sub-label {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #000000 !important;
+  border-radius: 5px;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 22px;
+  color: #ffffff;
+  padding: 2px 10px;
+  font-family: "Inter", sans-serif;
+  transition: all 1s;
+}
+.detailed-property-page .detailed-property-container .Career-box .sub-label:hover {
+  background-color: #004D79 !important;
+}
+.detailed-property-page .detailed-property-container .Career-box .opning-position {
+  font-size: 14px;
+  letter-spacing: 0.52px;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  color: #687693;
+  line-height: 1.5;
+}
+.detailed-property-page .detailed-property-container .Career-box .description-side .features-box {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.detailed-property-page .detailed-property-container .Career-box .description-side .features-box .diffrent-field {
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  color: #687693;
+}
+.detailed-property-page .detailed-property-container .Career-box .description-side .features-box .diffrent-field .features-icon {
+  border-radius: 50%;
+}
+.detailed-property-page .detailed-property-container .Career-box .description-side .features-box .diffrent-field .numbers-feature {
+  margin-left: 8px;
+}
+.detailed-property-page .detailed-property-container .Career-box .price {
+  width: 25%;
+  cursor: pointer;
+  color: #004D79 !important;
+  background-color: transparent;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  font-family: "Gloock", serif !important;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+  padding: 6px 12px 4px 12px;
+  transition: all 1s;
+}
+.detailed-property-page .detailed-property-container .Career-box .price:hover {
+  color: #EE8824;
+}
+.detailed-property-page .detailed-property-container .property-description {
+  text-align: left;
+  padding: 35px 30px;
+}
+.detailed-property-page .detailed-property-container .property-description .h6 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0px;
+  font-family: "Gloock", serif !important;
+  color: #000000;
+  transition: all 1s;
+}
+.detailed-property-page .detailed-property-container .property-description span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  font-family: "Inter", sans-serif;
+  color: #687693;
+  margin-top: 15px;
+  display: block;
+}
+.detailed-property-page .detailed-property-container .property-description .checked-features .Features-box {
+  width: 30%;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  color: #687693;
+}
+.detailed-property-page .detailed-property-container .property-description .checked-features .Features-box .features-icon {
+  border-radius: 50%;
+}
+.detailed-property-page .detailed-property-container .property-description .checked-features .Features-box .numbers-feature {
+  margin-left: 8px;
+  margin-top: 0px !important;
+}
+
+@media (max-width: 1450px) {
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 500px;
+  }
+}
+@media (max-width: 1200px) {
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 380px;
+  }
+}
+@media (max-width: 940px) {
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 300px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box {
+    margin-top: -20px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box .description-side,
+  .detailed-property-page .detailed-property-container .Career-box .price {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+}
+@media (max-width: 760px) {
+  .Career-box .sub-label {
+    font-size: 12px !important;
+    margin-left: 18px !important;
+  }
+  .Career-box h4,
+  .Career-box .apply-now-button,
+  .detailed-property-page .detailed-property-container .Career-box .price {
+    font-size: 22px !important;
+  }
+  .Career-box .opning-position {
+    font-size: 12px !important;
+  }
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 250px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box {
+    margin-top: 25px;
+  }
+  .detailed-property-page .detailed-property-container .property-description .checked-features .Features-box {
+    width: 50%;
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 670px) {
+  .Career-box .description-side {
+    width: 100% !important;
+  }
+  .Career-box .description-side h4 {
+    width: 100%;
+    text-align: left;
+  }
+  .Career-box {
+    padding: 15px;
+  }
+  .Career-box .description-side .sub-label {
+    margin-left: 0px !important;
+    margin-bottom: 10px !important;
+  }
+  .Career-box .description-side {
+    margin-bottom: 15px !important;
+  }
+  .detailed-property-page .detailed-property-container .Career-box h4 {
+    width: 100%;
+  }
+  .detailed-property-page .detailed-property-container .detailed-card-heading {
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .detailed-property-page .detailed-property-container .Career-box .sub-label {
+    margin-left: 0px !important;
+    margin-right: 10px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box .description-side {
+    margin-top: 10px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box .price {
+    padding-left: 0px !important;
+  }
+  .detailed-property-page .detailed-property-container .Career-box .description-side {
+    width: 100% !important;
+  }
+}
+@media (max-width: 600px) {
+  .apply-dialog .dialog-content .input-box {
+    width: 100% !important;
+  }
+  .detailed-property-page .detailed-property-container h1 {
+    font-size: 28px;
+  }
+  .detailed-property-page .detailed-property-container .sub-label {
+    font-size: 12px;
+  }
+  .detailed-property-page .detailed-property-container p {
+    font-size: 14px;
+  }
+  .detailed-property-page .image-section {
+    padding: 50px 16px !important;
+  }
+  .detailed-property-page .image-section .image-slider-section .image-slide,
+  .detailed-property-page .detailed-property-container .Career-box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .detailed-property-page .detailed-property-container .property-description .checked-features .Features-box {
+    width: 90%;
+  }
+  .detailed-property-page .detailed-property-container .property-description {
+    padding: 25px 0px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box {
+    padding: 20px;
+  }
+  .detailed-property-page .detailed-property-container .property-description span {
+    font-size: 15px;
+    line-height: normal;
+  }
+  .detailed-property-page .detailed-property-container .detailed-card-heading .d-flex {
+    flex-wrap: wrap;
+  }
+  .detailed-property-page .detailed-property-container .detailed-card-heading .d-flex p {
+    margin-top: 5px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box h4 {
+    margin-bottom: 0px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box .price {
+    padding: 0px;
+  }
+}
+@media (max-width: 360px) {
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 200px;
+  }
+}/*# sourceMappingURL=index.css.map */

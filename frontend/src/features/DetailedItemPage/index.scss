@@ -1,0 +1,566 @@
+.detailed-property-page {
+  .image-section {
+    .image-slider-section {
+      .image-slide {
+        width: 50%;
+        height: 600px;
+        margin-top: 30px;
+      }
+    }
+  }
+  .detailed-property-container {
+    .Career-box {
+      position: relative;
+      z-index: 99;
+      background-color: #edf4f7 !important;
+      padding: 35px;
+      border-radius: 5px;
+      margin-top: -35px;
+      margin-bottom: 15px;
+      h4 {
+        font-family: "Gloock", serif !important;
+        font-size: 32px;
+        font-weight: 500 !important;
+        margin-bottom: 10px;
+      }
+      .sub-label {
+        width: fit-content;
+        background-color: #000000 !important;
+        border-radius: 5px;
+        height: fit-content;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 22px;
+        color: #ffffff;
+        padding: 2px 10px;
+        font-family: "Inter", sans-serif;
+        transition: all 1s;
+        &:hover {
+          background-color: #004D79 !important;
+        }
+      }
+      .opning-position {
+        font-size: 14px;
+        letter-spacing: 0.52px;
+        font-family: "Inter", sans-serif;
+        width: 100%;
+        color: #687693;
+        line-height: 1.5;
+      }
+      .description-side {
+        .features-box {
+          width: 100%;
+          display: flex;
+          margin-top: 20px;
+          .diffrent-field {
+            margin-right: 25px;
+            display: flex;
+            align-items: center;
+            color: #687693;
+            .features-icon {
+              border-radius: 50%;
+            }
+            .numbers-feature {
+              margin-left: 8px;
+            }
+          }
+        }
+      }
+      .price {
+        width: 25%;
+        cursor: pointer;
+        color: #004D79 !important;
+        background-color: transparent;
+        height: fit-content;
+        border-radius: 5px;
+        font-family: "Josefin Sans", sans-serif !important;
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 0px !important;
+        padding: 6px 12px 4px 12px;
+        transition: all 1s;
+        &:hover {
+          color: #EE8824;
+        }
+      }
+    }
+    .property-description {
+      text-align: left;
+      padding: 35px 30px;
+      .h6 {
+        font-size: 20px;
+        font-weight: 500 !important;
+        margin: 10px 0px;
+        font-family: "Gloock", serif !important;
+        color: #000000;
+        transition: all 1s;
+      }
+      span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.8;
+        font-family: "Inter", sans-serif;
+        color: #687693;
+        margin-top: 15px;
+        display: block;
+      }
+      .checked-features {
+        .Features-box {
+          width: 30%;
+          margin-right: 25px;
+          margin-bottom: 10px;
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          color: #687693;
+          .features-icon {
+            border-radius: 50%;
+          }
+          .numbers-feature {
+            margin-left: 8px;
+            margin-top: 0px !important;
+          }
+        }
+      }
+    }
+  }
+  .location-filter-section {
+    margin: 120px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    h4 {
+      font-family: "Gloock", serif !important;
+      font-size: 40px;
+      font-weight: 500 !important;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .location-box {
+      width: 48%;
+      padding: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      background: linear-gradient(180deg, #edf7ff 0%, #faf3e1 100%);
+      .filter-header {
+        width: 100%;
+        .h4 {
+          font-size: 24px;
+          font-family: "Gloock", serif !important;
+          font-weight: 500 !important;
+          text-align: left;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.8;
+          font-family: "Inter", sans-serif;
+          color: #687693;
+          display: block;
+        }
+        .h5 {
+          font-family: "Inter", sans-serif;
+          font-size: 20px;
+        }
+      }
+    }
+    .map-box {
+      width: 48%;
+    }
+  }
+  .image-galery-section {
+    margin-bottom: 120px;
+    h4 {
+      font-family: "Gloock", serif !important;
+      font-size: 40px;
+      font-weight: 500 !important;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    p {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      color: #687693;
+    }
+    .tabs {
+      width: 99%;
+      text-align: center;
+      margin-bottom: 50px;
+      border-bottom: 1px solid rgba(180, 183, 201, 0.2);
+      .tab {
+        padding: 15px 0px;
+        display: inline-block;
+        span {
+          cursor: pointer;
+          padding: 0 50px;
+          font-weight: 700;
+          font-size: 15px;
+        }
+        span:hover {
+          color: #004D79;
+        }
+        .first-tab {
+          border-right: 1px solid #b4b7c9;
+        }
+      }
+      .selected {
+        border-bottom: 3px solid #004D79;
+        color: #004D79 !important;
+      }
+    }
+  }
+  .enquiry-section {
+    margin-bottom: 120px;
+    .location-filter-box {
+      width: 95%;
+      padding: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      background: linear-gradient(180deg, #edf7ff 0%, #faf3e1 100%);
+      .filter-header {
+        width: 100%;
+        .sub-label {
+          width: fit-content;
+          background-color: #EE8824;
+          border-radius: 5px;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0.7px;
+          margin-bottom: 25px;
+          color: #ffffff;
+          padding: 5px 15px;
+          font-family: "Inter", sans-serif;
+        }
+        .h4 {
+          font-size: 28px;
+          font-family: "Gloock", serif !important;
+          font-weight: 500 !important;
+          text-align: left;
+          margin-bottom: 30px;
+        }
+      }
+      .input-box {
+        width: 25%;
+        text-align: left;
+        margin: 10px 10px;
+        .text-field {
+          width: 80%;
+        }
+        .filter-label {
+          font-size: 15px !important;
+          width: 90%;
+          margin-bottom: 3px;
+        }
+      }
+      .search-button {
+        background-color: #004D79;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 15px 33px;
+        border-radius: 7px;
+        margin-top: 22px;
+        cursor: pointer;
+        font-family: "Josefin Sans", sans-serif !important;
+        display: flex;
+        align-items: center ;
+      }
+    }
+  }
+}
+.detailed-property-page .MuiOutlinedInput-input {
+  border: none !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  color: #687693;
+}
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+.yt-video {
+  text-align: center;
+}
+.ReactGridGallery {
+  div {
+    max-width: 100%;
+    .ReactGridGallery_tile {
+      max-width: 100%;
+      .ReactGridGallery_tile-viewport {
+        img {
+          max-width: 100% !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1450px) {
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 500px;
+  }
+  .youtube-video-iframe {
+    max-height: 60vh;
+  }
+}
+@media (max-width: 1200px) {
+  .landing-page .location-filter-section .map-box {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 380px;
+  }
+  .landing-page .location-filter-section .map-box {
+    width: 75%;
+  }
+  .detailed-property-page .location-filter-section {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .youtube-video-iframe {
+    max-width: 100%;
+  }
+  .detailed-property-page .enquiry-section .location-filter-box {
+    width: 100%;
+  }
+  .detailed-property-page
+    .enquiry-section
+    .location-filter-box
+    .input-box
+    .text-field {
+    width: 90%;
+  }
+}
+@media (max-width: 940px) {
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 300px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box {
+    margin-top: -20px;
+  }
+  .detailed-property-page
+    .detailed-property-container
+    .Career-box
+    .description-side,
+  .detailed-property-page .detailed-property-container .Career-box .price {
+    width: fit-content !important;
+  }
+  .detailed-property-page .enquiry-section .location-filter-box .input-box {
+    width: 45%;
+  }
+  .detailed-property-page .location-filter-section {
+    justify-content: center;
+  }
+  .detailed-property-page .location-filter-section .map-box,
+  .detailed-property-page .location-filter-section .location-box {
+    width: 80% !important;
+  }
+  .detailed-property-page .location-filter-section .map-box {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 760px) {
+  .landing-page .location-filter-section .location-box,
+  .landing-page .location-filter-section .map-box {
+    width: 100%;
+  }
+  .youtube-video-iframe {
+    max-height: 300px;
+  }
+  .Career-box .sub-label {
+    font-size: 12px !important;
+    margin-left: 18px !important;
+  }
+  .Career-box h4,
+  .detailed-property-page .location-filter-section h4,
+  .Career-box .apply-now-button,
+  .detailed-property-page .image-galery-section h4,
+  .detailed-property-page
+    .enquiry-section
+    .location-filter-box
+    .filter-header
+    .h4,
+  .detailed-property-page .detailed-property-container .Career-box .price {
+    font-size: 22px !important;
+  }
+  .Career-box .opning-position,
+  .detailed-property-page
+    .enquiry-section
+    .location-filter-box
+    .filter-header
+    .sub-label {
+    font-size: 12px !important;
+  }
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 250px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box {
+    margin-top: 25px;
+  }
+  .detailed-property-page
+    .detailed-property-container
+    .property-description
+    .checked-features
+    .Features-box {
+    width: 50%;
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 670px) {
+  .youtube-video-iframe,
+  .mapIframe {
+    max-height: 225px;
+  }
+  .Career-box .description-side {
+    width: 100% !important;
+  }
+  .Career-box .description-side h4 {
+    width: 100%;
+    text-align: left;
+  }
+  .Career-box {
+    padding: 15px;
+  }
+  .Career-box .description-side .sub-label {
+    margin-left: 0px !important;
+    margin-bottom: 10px !important;
+  }
+  .Career-box .description-side {
+    margin-bottom: 15px !important;
+  }
+  .detailed-property-page .detailed-property-container .Career-box h4 {
+    width: 100%;
+  }
+  .detailed-property-page .detailed-property-container .detailed-card-heading {
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .detailed-property-page .detailed-property-container .Career-box .sub-label {
+    margin-left: 0px !important;
+    margin-right: 10px;
+  }
+  .detailed-property-page
+    .detailed-property-container
+    .Career-box
+    .description-side {
+    margin-top: 10px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box .price {
+    padding-left: 0px !important;
+  }
+  .detailed-property-page
+    .detailed-property-container
+    .Career-box
+    .description-side {
+    width: 100% !important;
+  }
+}
+@media (max-width: 600px) {
+  .detailed-property-page .enquiry-section .location-filter-box .input-box {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .detailed-property-page .enquiry-section .location-filter-box .input-box .text-field {
+    width: 100%;
+  }
+  .detailed-property-page .enquiry-section .location-filter-box{
+    padding: 30px;
+  }
+  .detailed-property-page .location-filter-section .map-box {
+    width: 100%;
+  }
+  .detailed-property-page .image-galery-section .tabs .tab span {
+    padding: 0 15px;
+  }
+  .landing-page .filter-section .main-filter .tabs .tab .first-tab,
+  .landing-page .filter-section .main-filter .tabs .tab span,
+  .landing-page .properties-section .tabs .tab .first-tab,
+  .landing-page .properties-section .tabs .tab span {
+    padding: 0 25px !important;
+    font-size: 14px !important;
+  }
+  .landing-page .location-filter-section {
+    margin: 50px 0px;
+    padding: 20px !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+  .landing-page .location-filter-section .location-box {
+    margin: 50px auto;
+    padding: 25px !important;
+  }
+  .landing-page .location-filter-section .location-box {
+    justify-content: center;
+  }
+  .apply-dialog .dialog-content .input-box {
+    width: 100% !important;
+  }
+  .detailed-property-page .detailed-property-container h1 {
+    font-size: 28px;
+  }
+  .detailed-property-page .detailed-property-container .sub-label {
+    font-size: 12px;
+  }
+  .detailed-property-page .detailed-property-container p {
+    font-size: 14px;
+  }
+  .detailed-property-page .image-section {
+    padding: 50px 16px !important;
+  }
+  .detailed-property-page .image-section .image-slider-section .image-slide,
+  .detailed-property-page .detailed-property-container .Career-box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .detailed-property-page
+    .detailed-property-container
+    .property-description
+    .checked-features
+    .Features-box {
+    width: 90%;
+  }
+  .detailed-property-page .detailed-property-container .property-description {
+    padding: 25px 0px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box {
+    padding: 20px;
+  }
+  .detailed-property-page
+    .detailed-property-container
+    .property-description
+    span {
+    font-size: 15px;
+    line-height: normal;
+  }
+  .detailed-property-page
+    .detailed-property-container
+    .detailed-card-heading
+    .d-flex {
+    flex-wrap: wrap;
+  }
+  .detailed-property-page
+    .detailed-property-container
+    .detailed-card-heading
+    .d-flex
+    p {
+    margin-top: 5px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box h4 {
+    margin-bottom: 0px;
+  }
+  .detailed-property-page .detailed-property-container .Career-box .price {
+    padding: 0px;
+  }
+}
+@media (max-width: 360px) {
+  .detailed-property-page .image-section .image-slider-section .image-slide {
+    height: 200px;
+  }
+}

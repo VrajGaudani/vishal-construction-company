@@ -1,0 +1,48 @@
+.wp-icon {
+  bottom: 30px;
+  right: 40px;
+  z-index: 999;
+  cursor: pointer;
+}
+.social-icons-box {
+  bottom: 30px;
+  left: 40px;
+  z-index: 999;
+  cursor: pointer;
+}
+.social-media {
+  transition: all 1s;
+}
+.social-icons {
+  fill: #687693 !important;
+  border-color: #ffffff;
+}
+.social-icons:hover {
+  background-color: #004D79;
+  color: #dae8f0 !important;
+  fill: #dae8f0 !important;
+  border-color: #004D79;
+}
+.social-icons:hover svg {
+  fill: #dae8f0 !important;
+}
+.social-icons:hover svg path {
+  fill: #dae8f0 !important;
+}
+.social-icons:hover svg plygon {
+  fill: #dae8f0 !important;
+}
+.social-icons:hover svg circle {
+  fill: #dae8f0 !important;
+}
+@media (max-width: 600px) {
+  .social-icons-box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-icons {
+    margin: 5px 0px !important;
+  }
+}

@@ -1,0 +1,271 @@
+.supplier-page .about-section {
+  min-height: 870px;
+  width: 100%;
+  display: flex;
+}
+.supplier-page .about-section .about-image {
+  width: 50.5%;
+}
+.supplier-page .about-section .about-desc {
+  width: 49.5%;
+  text-align: left;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  padding-left: 70px;
+  padding-right: 250px;
+}
+.supplier-page .about-section .about-desc .sub-label {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #EE8824;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  padding: 5px 15px;
+  font-family: "Inter", sans-serif;
+}
+.supplier-page .about-section .about-desc h4 {
+  font-family: "Gloock", serif !important;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.supplier-page .about-section .about-desc p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #687693;
+  margin-bottom: 40px;
+  line-height: 1.8;
+  padding-right: 35px;
+}
+.supplier-page .about-section .about-desc .read-more {
+  padding: 35px;
+  margin-top: 30px;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.supplier-page .about-section .about-desc .read-more h3 {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.supplier-page .about-section .about-desc .read-more img {
+  width: 36px;
+}
+.supplier-page .inquiry-section {
+  width: 100%;
+}
+.supplier-page .inquiry-section .inquiry-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .checkboxx {
+  color: black !important;
+  padding: 0 10px !important;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .sub-label {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #000000;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  padding: 5px 15px;
+  font-family: "Inter", sans-serif;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 0px 30px 30px 30px;
+  padding: 35px;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .form-label {
+  font-size: 18px;
+  font-family: "Gloock", serif !important;
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box {
+  width: 25%;
+  text-align: left;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box .text-field {
+  width: 80%;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box .inquiry-text-area:focus {
+  box-shadow: 0 0 0 0.25rem rgba(27, 111, 88, 0.2509803922);
+  border: none;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box .filter-label {
+  font-size: 15px !important;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .submit-button {
+  background-color: #004D79;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 13px 33px;
+  border-radius: 50px;
+  margin-top: 22px;
+  cursor: pointer;
+  font-family: "Gloock", serif !important;
+}
+.supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .upload-div {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #687693;
+  cursor: pointer;
+}
+.supplier-page .MuiOutlinedInput-input {
+  border: none !important;
+  background-color: white !important;
+  border-radius: 30px !important;
+  color: #687693;
+}
+.supplier-page .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+@media (max-width: 1600px) {
+  .supplier-page .about-section .about-desc {
+    padding-right: 100px;
+  }
+  .supplier-page .rent-section .rent-desc {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1460px) {
+  .about-section .about-desc {
+    padding-right: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  .about-section .about-desc {
+    padding: 35px 10px 35px 15px !important;
+  }
+  .about-section .about-desc .read-more {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .rent-section .rent-desc {
+    padding: 35px 15px 35px 15px !important;
+  }
+  .rent-section .rent-desc .read-more {
+    padding-top: 0px !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .rent-section .rent-desc p {
+    letter-spacing: 1px;
+  }
+  .supplier-page .about-section,
+  .supplier-page .rent-section {
+    margin: 50px 0px;
+  }
+}
+@media (max-width: 960px) {
+  .about-section,
+  .rent-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-section .about-image,
+  .rent-section .rent-image {
+    width: 96.5% !important;
+    height: 550px !important;
+  }
+  .about-section .about-desc,
+  .rent-section .rent-desc {
+    width: 100% !important;
+  }
+  .supplier-page .inquiry-form {
+    width: 75% !important;
+  }
+  .supplier-page .inquiry-section .inquiry-container {
+    justify-content: center;
+  }
+}
+@media (max-width: 760px) {
+  .aboutus-page {
+    margin-bottom: 50px;
+  }
+  .aboutus-page .why-us-section {
+    padding: 50px 0px;
+    max-width: 100%;
+  }
+  .aboutus-page .why-us-section .image-box {
+    padding-left: 15px !important;
+    margin-left: 15px !important;
+    margin-bottom: 10px;
+  }
+  .about-section .about-desc .sub-label,
+  .rent-section .rent-desc .sub-label,
+  .aboutus-page .why-us-section .heading-box .sub-label,
+  .supplier-page .inquiry-section .inquiry-container .inquiry-form .sub-label {
+    font-size: 12px !important;
+  }
+  .about-section .about-desc h4,
+  .rent-section .rent-desc h4,
+  .aboutus-page .why-us-section .heading-box h1,
+  .supplier-page .inquiry-section .inquiry-container .inquiry-form h1 {
+    font-size: 28px !important;
+  }
+  .about-section .about-desc p,
+  .rent-section .rent-desc p {
+    font-size: 15px !important;
+  }
+  .about-section .about-desc .read-more h3,
+  .rent-section .rent-desc .read-more h3 {
+    font-size: 20px !important;
+  }
+  .about-section .about-desc .p,
+  .rent-section .rent-desc .p {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 15px !important;
+  }
+  .supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box {
+    width: 100% !important;
+  }
+  .supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box {
+    padding: 15px !important;
+  }
+}
+@media (max-width: 500px) {
+  .supplier-page .inquiry-form {
+    width: 90% !important;
+  }
+  .MuiOutlinedInput-input {
+    padding: 10px !important;
+  }
+  .supplier-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .submit-button {
+    padding: 8px 33px;
+  }
+}
+@media (max-width: 360px) {
+  .supplier-page .inquiry-form {
+    width: 95% !important;
+  }
+}/*# sourceMappingURL=index.css.map */

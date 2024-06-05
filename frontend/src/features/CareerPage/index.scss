@@ -1,0 +1,111 @@
+.career-page {
+  .career-page-container {
+    margin: 100px auto;
+    .sub-label {
+      width: fit-content;
+      background-color: #EE8824;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.7px;
+      margin-bottom: 22px;
+      color: #ffffff;
+      padding: 5px 15px;
+      font-family: "Inter", sans-serif;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 36px;
+      text-align: left;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    p {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      color: #687693;
+      margin-bottom: 25px;
+    }
+    &:first-child {
+      border-left: none !important;
+    }
+  }
+}
+.apply-dialog {
+  .input-box {
+    .upload-div {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #687693;
+      cursor: pointer;
+      font-family: "Inter", sans-serif !important;
+    }
+    .inquiry-text-area {
+      &:focus {
+        box-shadow: 0 0 0 0.25rem #004D7940;
+        border: none;
+      }
+    }
+  }
+  .dialog-header {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Gloock", serif !important;
+  }
+  .dialog-content {
+    display: flex;
+    flex-wrap: wrap;
+    .input-box {
+      padding-right: 15px;
+      margin-top: 10px;
+      font-family: "Inter", sans-serif;
+    }
+  }
+  .submit-dialog-button {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    color: #ffffff;
+    padding: 10px 32px;
+    background-color: #004D79;
+    border-radius: 8px;
+    transition: all 0.5s;
+  }
+  .MuiOutlinedInput-input {
+    border: none !important;
+    background-color: white !important;
+    border-radius: 8px !important;
+    color: #687693;
+    &::placeholder {
+      font-family: "Inter", sans-serif;
+    }
+  }
+  .MuiOutlinedInput-notchedOutline {
+    border: none !important;
+  }
+}
+.apply-dialog .MuiDialog-paper {
+  background-color: #edf4f7;
+}
+@media (max-width: 600px) {
+  .apply-dialog .dialog-content .input-box{
+    width: 100% !important;
+  }
+  .career-page .career-page-container h1 {
+    font-size: 28px;
+  }
+  .career-page .career-page-container .sub-label {
+    font-size: 12px;
+  }
+  .career-page .career-page-container p {
+    font-size: 14px;
+  }
+  .career-page .career-page-container {
+    margin: 50px auto;
+  }
+}

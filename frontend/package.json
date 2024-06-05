@@ -1,0 +1,38 @@
+{
+  "name": "vraj-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.15",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "next": "14.2.2",
+    "react": "^18",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18",
+    "react-grid-gallery": "^1.0.1",
+    "react-icons": "^5.1.0",
+    "react-modal-image": "^2.6.0",
+    "react-router-dom": "^6.22.3",
+    "react-visibility-sensor": "^5.1.1",
+    "styled-components": "^6.1.8",
+    "swiper": "^11.1.1",
+    "use-router": "^0.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
+    "sass": "^1.75.0"
+  }
+}

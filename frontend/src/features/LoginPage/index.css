@@ -1,0 +1,48 @@
+.Login-page .sub-texts {
+  color: #687693;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin: 8px 0px;
+}
+.Login-page .links {
+  color: #004D79 !important;
+  cursor: pointer;
+}
+.Login-page .login-button {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  background-color: #004D79;
+  transition: all 1s;
+}
+.Login-page .login-button:hover {
+  background-color: #EE8824;
+}
+.Login-page .login-form {
+  padding: 100px 0;
+}
+
+@media (max-width: 600px) {
+  .login-form {
+    width: 85%;
+  }
+  .Login-page .sub-texts {
+    font-size: 15px;
+  }
+}
+@media (max-width: 350px) {
+  .login-form {
+    width: 90%;
+  }
+}
+.MuiInputLabel-formControl {
+  font-family: "Inter", sans-serif !important;
+}
+
+.MuiInputBase-input::-moz-placeholder {
+  font-family: "Inter", sans-serif !important;
+}
+
+.MuiInputBase-input::placeholder {
+  font-family: "Inter", sans-serif !important;
+}/*# sourceMappingURL=index.css.map */

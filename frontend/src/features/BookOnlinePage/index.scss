@@ -1,0 +1,311 @@
+.finance-page {
+  .rent-section {
+    width: 100%;
+    display: flex;
+    min-height: 870px;
+    .rent-desc {
+      width: 49.5%;
+      text-align: left;
+      padding-top: 130px;
+      padding-bottom: 130px;
+      padding-right: 70px;
+      padding-left: 250px;
+      .sub-label {
+        width: fit-content;
+        background-color: #EE8824;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.7px;
+        margin-bottom: 25px;
+        color: #ffffff;
+        padding: 5px 15px;
+        font-family: "Inter", sans-serif;
+      }
+      h4 {
+        font-family: "Gloock", serif !important;
+        font-size: 40px;
+        font-weight: 500 !important;
+        margin-bottom: 18px;
+      }
+      p {
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        color: #687693;
+        margin-bottom: 40px;
+        line-height: 1.8;
+        // padding-left: 35px;
+      }
+    }
+    .rent-image {
+      width: 50.5%;
+      .inquiry-form {
+        margin: 50px auto;
+        .checkboxx {
+          color: black !important;
+          padding: 0 10px !important;
+        }
+        .sub-label {
+          width: fit-content;
+          background-color: #000000;
+          border-radius: 5px;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0.7px;
+          margin-bottom: 25px;
+          color: #ffffff;
+          padding: 5px 15px;
+          font-family: "Inter", sans-serif;
+        }
+        .inquiry-form-box {
+          text-align: left;
+          background: rgba(255, 255, 255, 0.5);
+          border-radius: 0px 30px 30px 30px;
+          padding: 35px;
+          .form-label {
+            font-size: 18px;
+            font-family: "Gloock", serif !important;
+            font-weight: 500 !important;
+            width: 100%;
+            margin-bottom: 10px;
+          }
+          .input-box {
+            width: 25%;
+            text-align: left;
+            margin: 10px 0px;
+            padding: 0px 10px;
+            .text-field {
+              width: 80%;
+            }
+            .inquiry-text-area {
+              &:focus {
+                box-shadow: 0 0 0 0.25rem #004D7940;
+                border: none;
+              }
+            }
+            .filter-label {
+              font-size: 15px !important;
+              font-weight: 500;
+              line-height: 1;
+              margin-bottom: 5px;
+            }
+          }
+          .inline-span {
+            .inline-input-field {
+              width: 60px;
+              background-color: transparent;
+              border: none;
+              border-bottom: 1px solid black;
+              &:focus-visible,
+              &:focus {
+                border: none;
+                border-bottom: 1px solid black;
+                outline: none;
+              }
+            }
+          }
+          .submit-button {
+            background-color: #004D79;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 13px 33px;
+            border-radius: 50px;
+            margin-top: 22px;
+            cursor: pointer;
+            font-family: "Josefin Sans", sans-serif !important;
+          }
+        }
+      }
+    }
+  }
+  .MuiOutlinedInput-input {
+    border: none !important;
+    background-color: white !important;
+    border-radius: 8px !important;
+    color: #687693;
+  }
+  .MuiOutlinedInput-notchedOutline {
+    border: none !important;
+  }
+}
+@media (max-width: 1600px) {
+  .finance-page .about-section .about-desc {
+    padding-right: 100px;
+  }
+  .finance-page .rent-section .rent-desc {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1460px) {
+  .about-section .about-desc {
+    padding-right: 100px;
+  }
+  .rent-section .rent-desc {
+    padding-left: 100px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .about-section .about-desc {
+    padding: 35px 10px 35px 15px !important;
+  }
+  .about-section .about-desc .read-more {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .rent-section .rent-desc {
+    padding: 35px 15px 35px 15px !important;
+  }
+  .rent-section .rent-desc .read-more {
+    padding-top: 0px !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .rent-section .rent-desc p {
+    letter-spacing: 1px;
+  }
+  .finance-page .rent-section {
+    margin: 50px 0px;
+  }
+  .finance-page .rent-section .rent-image .inquiry-form{
+    width: 80% !important;
+  }
+  .finance-page .rent-section .rent-image .inquiry-form .inquiry-form-box{
+    padding: 35px 15px;
+  }
+}
+@media (max-width: 1080px) {
+  .finance-page .rent-section .rent-image .inquiry-form .inquiry-form-box .input-box{
+    width: 95% !important;
+  }
+  .finance-page .rent-section .rent-image .inquiry-form .inquiry-form-box{
+    padding: 35px 25px;
+  }
+}
+@media (max-width: 960px) {
+  .about-section,
+  .rent-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-section .about-image,
+  .rent-section .rent-image {
+    width: 96.5% !important;
+    min-height: 600px !important;
+  }
+  .finance-page .rent-section .rent-image .inquiry-form{
+    width: 60% !important;
+  }
+  .about-section .about-desc,
+  .rent-section .rent-desc {
+    width: 100% !important;
+  }
+  .finance-page .inquiry-form {
+    width: 75% !important;
+  }
+  .finance-page .inquiry-form {
+    width: 60% !important;
+  }
+}
+@media (max-width: 760px) {
+  .finance-page .rent-section .rent-image .inquiry-form{
+    width: 75% !important;
+  }
+  .aboutus-page {
+    margin-bottom: 50px;
+  }
+  .aboutus-page .why-us-section {
+    padding: 50px 0px;
+    max-width: 100%;
+  }
+  .aboutus-page .why-us-section .image-box {
+    padding-left: 15px !important;
+    margin-left: 15px !important;
+    margin-bottom: 10px;
+  }
+  .about-section .about-desc .sub-label,
+  .rent-section .rent-desc .sub-label,
+  .aboutus-page .why-us-section .heading-box .sub-label,
+  .finance-page .inquiry-section .inquiry-container .inquiry-form .sub-label {
+    font-size: 12px !important;
+  }
+  .about-section .about-desc h4,
+  .rent-section .rent-desc h4,
+  .aboutus-page .why-us-section .heading-box h1,
+  .finance-page .inquiry-section .inquiry-container .inquiry-form h1 {
+    font-size: 28px !important;
+  }
+  .about-section .about-desc p,
+  .rent-section .rent-desc p {
+    font-size: 15px !important;
+  }
+  .about-section .about-desc .read-more h3,
+  .rent-section .rent-desc .read-more h3 {
+    font-size: 20px !important;
+  }
+  .about-section .about-desc .p,
+  .rent-section .rent-desc .p {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 15px !important;
+  }
+  .finance-page
+    .inquiry-section
+    .inquiry-container
+    .inquiry-form
+    .inquiry-form-box
+    .input-box {
+    width: 100% !important;
+  }
+  .finance-page
+    .inquiry-section
+    .inquiry-container
+    .inquiry-form
+    .inquiry-form-box {
+    padding: 15px !important;
+  }
+}
+@media (max-width: 600px) {
+  .finance-page .rent-section .rent-image .inquiry-form .inquiry-form-box .input-box{
+    width: 100% !important;
+  }
+  .build-material-section {
+    padding: 50px 16px !important;
+  }
+  .build-material-section .material-slider .slider-image-material {
+    margin-top: 1px !important;
+  }
+  .build-material-section {
+    height: 250px !important;
+  }
+  .inquiry-form-box .input-box {
+    width: 100% !important;
+  }
+  .finance-page .rent-section .rent-image .inquiry-form .inquiry-form-box {
+    padding: 15px;
+  }
+  .finance-page .rent-section .rent-image .inquiry-form {
+    width: 80% !important;
+  }
+}
+@media (max-width: 500px) {
+  .finance-page .rent-section .rent-image .inquiry-form {
+    width: 90% !important;
+  }
+  .finance-page .MuiOutlinedInput-input {
+    padding: 10px !important;
+  }
+  .finance-page
+    .inquiry-section
+    .inquiry-container
+    .inquiry-form
+    .inquiry-form-box
+    .submit-button {
+    padding: 8px 33px;
+  }
+}
+@media (max-width: 360px) {
+  .finance-page .inquiry-form {
+    width: 95% !important;
+  }
+}

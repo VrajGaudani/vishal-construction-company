@@ -1,0 +1,109 @@
+.company-name {
+  font-family: "Josefin Sans", sans-serif !important;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.sub-texts {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #dae8f0;
+  font-weight: 400;
+}
+
+.footer-container {
+  padding: 100px 0px;
+  background-color: black;
+}
+
+.footer-headings {
+  font-family: "Josefin Sans", sans-serif !important;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.sub-labels {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #dae8f0;
+  font-weight: 400;
+}
+
+.footer-input {
+  background-color: transparent !important;
+  color: white !important;
+  border-color: #004D79 !important;
+}
+.footer-input:focus {
+  background-color: transparent !important;
+  color: white;
+  border-color: #004D79 !important;
+  box-shadow: none !important;
+}
+.footer-input::-moz-placeholder {
+  color: #dae8f0 !important;
+}
+.footer-input::placeholder {
+  color: #dae8f0 !important;
+}
+
+.footer-button {
+  background-color: #004D79 !important;
+  color: white !important;
+  transition: all 1s !important;
+}
+.footer-button:hover {
+  background-color: #EE8824 !important;
+}
+
+.footer-links {
+  cursor: pointer;
+  transition: all 1s;
+}
+.footer-links:hover {
+  color: #EE8824;
+}
+
+.social-icons {
+  margin-right: 10px;
+  transition: all 1s;
+}
+.social-icons:hover {
+  background-color: #004D79;
+  color: #dae8f0;
+  border-color: #004D79;
+}
+
+@media (max-width: 1300px) {
+  .contact-col-footer {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+  }
+}
+@media (max-width: 990px) {
+  .contact-col-footer {
+    width: 45% !important;
+    margin-top: 25px !important;
+    text-align: left !important;
+  }
+  .footer-headings,
+  .company-name {
+    margin-bottom: 7px !important;
+  }
+}
+@media (max-width: 600px) {
+  .contact-col-footer {
+    width: 90% !important;
+    margin-left: 20px;
+  }
+  .footer-container {
+    padding: 26px 0;
+  }
+}
+@media (max-width: 380px) {
+  .contact-col-footer {
+    width: 98%;
+  }
+}/*# sourceMappingURL=index.css.map */

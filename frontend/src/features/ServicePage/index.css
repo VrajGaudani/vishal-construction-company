@@ -1,0 +1,398 @@
+.service-page .why-us-section {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.service-page .why-us-section .heading-box {
+  text-align: left;
+  padding: 0 15px;
+  border-left: 1px solid #dae8f0;
+  transition: all 1s;
+}
+.service-page .why-us-section .heading-box .sub-label {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #EE8824;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin-bottom: 22px;
+  color: #ffffff;
+  padding: 5px 15px;
+  font-family: "Inter", sans-serif;
+}
+.service-page .why-us-section .heading-box h1 {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.service-page .why-us-section .heading-box hr {
+  position: relative;
+  top: 0;
+  border: none;
+  height: 2px;
+  background: #004D79;
+  margin-top: 0;
+  width: 80%;
+  opacity: 1;
+}
+.service-page .why-us-section .heading-box h4 {
+  font-family: "Gloock", serif !important;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.service-page .why-us-section .heading-box p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #687693;
+}
+.service-page .why-us-section .heading-box:first-child {
+  border-left: none !important;
+}
+.service-page .why-us-section .heading-box:hover {
+  border-left: 1px solid #004D79;
+}
+.service-page .why-us-section .image-box {
+  padding-left: 30px !important;
+}
+.service-page .why-us-section .image-box .image {
+  margin-bottom: 25px;
+}
+.service-page .about-section {
+  min-height: 870px;
+  width: 100%;
+  display: flex;
+}
+.service-page .about-section .about-image {
+  width: 50.5%;
+}
+.service-page .about-section .about-desc {
+  width: 49.5%;
+  text-align: left;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  padding-left: 70px;
+  padding-right: 250px;
+}
+.service-page .about-section .about-desc .sub-label {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #EE8824;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  padding: 5px 15px;
+  font-family: "Inter", sans-serif;
+}
+.service-page .about-section .about-desc h4 {
+  font-family: "Gloock", serif !important;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.service-page .about-section .about-desc p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #687693;
+  margin-bottom: 40px;
+  line-height: 1.8;
+  padding-right: 35px;
+}
+.service-page .about-section .about-desc .read-more {
+  padding: 35px;
+  margin-top: 30px;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.service-page .about-section .about-desc .read-more h3 {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.service-page .about-section .about-desc .read-more img {
+  width: 36px;
+}
+.service-page .rent-section {
+  width: 100%;
+  display: flex;
+  min-height: 870px;
+}
+.service-page .rent-section .rent-desc {
+  width: 49.5%;
+  text-align: left;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  padding-right: 70px;
+  padding-left: 250px;
+}
+.service-page .rent-section .rent-desc .sub-label {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #EE8824;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  padding: 5px 15px;
+  font-family: "Inter", sans-serif;
+}
+.service-page .rent-section .rent-desc h4 {
+  font-family: "Gloock", serif !important;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.service-page .rent-section .rent-desc p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #687693;
+  margin-bottom: 40px;
+  line-height: 1.8;
+  padding-left: 35px;
+}
+.service-page .rent-section .rent-desc .read-more {
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 35px;
+  margin-top: 30px;
+}
+.service-page .rent-section .rent-desc .read-more p {
+  margin-bottom: 20px !important;
+}
+.service-page .rent-section .rent-desc .read-more h3 {
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+.service-page .rent-section .rent-desc .read-more img {
+  width: 36px;
+}
+.service-page .rent-section .rent-image {
+  width: 50.5%;
+}
+.service-page .inquiry-section {
+  width: 100%;
+}
+.service-page .inquiry-section .inquiry-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .checkboxx {
+  color: black !important;
+  padding: 0 10px !important;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .sub-label {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #000000;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  padding: 5px 15px;
+  font-family: "Inter", sans-serif;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 0px 30px 30px 30px;
+  padding: 35px;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .form-label {
+  font-size: 18px;
+  font-family: "Gloock", serif !important;
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box {
+  width: 25%;
+  text-align: left;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box .text-field {
+  width: 80%;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box .inquiry-text-area:focus {
+  box-shadow: 0 0 0 0.25rem rgba(27, 111, 88, 0.2509803922);
+  border: none;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box .filter-label {
+  font-size: 15px !important;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box .upload-div {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #687693;
+  cursor: pointer;
+  font-family: "Inter", sans-serif !important;
+}
+.service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .submit-button {
+  background-color: #004D79;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 13px 33px;
+  border-radius: 50px;
+  margin-top: 22px;
+  cursor: pointer;
+  font-family: "Gloock", serif !important;
+}
+.service-page .MuiOutlinedInput-input {
+  border: none !important;
+  background-color: white !important;
+  border-radius: 30px !important;
+  color: #687693;
+}
+.service-page .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+@media (max-width: 1600px) {
+  .service-page .about-section .about-desc {
+    padding-right: 100px;
+  }
+  .service-page .rent-section .rent-desc {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1460px) {
+  .about-section .about-desc {
+    padding-right: 100px;
+  }
+  .rent-section .rent-desc {
+    padding-left: 100px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .about-section .about-desc {
+    padding: 35px 10px 35px 15px !important;
+  }
+  .about-section .about-desc .read-more {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .rent-section .rent-desc {
+    padding: 35px 15px 35px 15px !important;
+  }
+  .rent-section .rent-desc .read-more {
+    padding-top: 0px !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .rent-section .rent-desc p {
+    letter-spacing: 1px;
+  }
+  .service-page .about-section,
+  .service-page .rent-section {
+    margin: 50px 0px;
+  }
+}
+@media (max-width: 960px) {
+  .about-section,
+  .rent-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-section .about-image,
+  .rent-section .rent-image {
+    width: 96.5% !important;
+    height: 550px !important;
+  }
+  .about-section .about-desc,
+  .rent-section .rent-desc {
+    width: 100% !important;
+  }
+  .service-page .inquiry-form {
+    width: 75% !important;
+  }
+  .service-page .inquiry-section .inquiry-container {
+    justify-content: center;
+  }
+}
+@media (max-width: 760px) {
+  .aboutus-page {
+    margin-bottom: 50px;
+  }
+  .aboutus-page .why-us-section {
+    padding: 50px 0px;
+    max-width: 100%;
+  }
+  .aboutus-page .why-us-section .image-box {
+    padding-left: 15px !important;
+    margin-left: 15px !important;
+    margin-bottom: 10px;
+  }
+  .about-section .about-desc .sub-label,
+  .rent-section .rent-desc .sub-label,
+  .aboutus-page .why-us-section .heading-box .sub-label,
+  .service-page .inquiry-section .inquiry-container .inquiry-form .sub-label {
+    font-size: 12px !important;
+  }
+  .about-section .about-desc h4,
+  .rent-section .rent-desc h4,
+  .aboutus-page .why-us-section .heading-box h1,
+  .service-page .inquiry-section .inquiry-container .inquiry-form h1 {
+    font-size: 28px !important;
+  }
+  .about-section .about-desc p,
+  .rent-section .rent-desc p {
+    font-size: 15px !important;
+  }
+  .about-section .about-desc .read-more h3,
+  .rent-section .rent-desc .read-more h3 {
+    font-size: 20px !important;
+  }
+  .about-section .about-desc .p,
+  .rent-section .rent-desc .p {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 15px !important;
+  }
+  .service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .input-box {
+    width: 100% !important;
+  }
+  .service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box {
+    padding: 15px !important;
+  }
+}
+@media (max-width: 500px) {
+  .service-page .inquiry-form {
+    width: 90% !important;
+  }
+  .service-page .MuiOutlinedInput-input {
+    padding: 10px !important;
+  }
+  .service-page .inquiry-section .inquiry-container .inquiry-form .inquiry-form-box .submit-button {
+    padding: 8px 33px;
+  }
+}
+@media (max-width: 360px) {
+  .service-page .inquiry-form {
+    width: 95% !important;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,6 @@
+1. Booking Module In Controller and Routes check for function
+2. Update Contact us status file ma slider status update no code 6
+3. Enquiry, contactUs, auth,booking,callback
+4. changes in every get function and delete function
+5. remove authentication from get apis
+6. update field in postman

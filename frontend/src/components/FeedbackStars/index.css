@@ -1,0 +1,10 @@
+.star-box {
+  display: inline-block;
+}
+.star-box .active {
+  color: #E09132 !important;
+}
+.star-box .star {
+  color: #B4B7C9;
+  margin-right: 7px;
+}/*# sourceMappingURL=index.css.map */

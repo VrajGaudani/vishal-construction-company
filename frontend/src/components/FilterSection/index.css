@@ -1,0 +1,125 @@
+.filter-section {
+  width: 100%;
+  background-color: #edf4f7;
+}
+.filter-section .main-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.filter-section .main-filter .sub-label {
+  background-color: #EE8824;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  margin-bottom: 22px;
+  color: #ffffff;
+  padding: 5px 15px;
+  font-family: "Inter", sans-serif;
+}
+.filter-section .main-filter h1 {
+  font-weight: bold;
+  font-size: 72px;
+  text-align: left;
+  width: 100%;
+}
+.filter-section .main-filter .tabs {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(180, 183, 201, 0.15);
+}
+.filter-section .main-filter .tabs .tab {
+  padding: 15px 0px;
+  display: inline-block;
+}
+.filter-section .main-filter .tabs .tab span {
+  cursor: pointer;
+  padding: 0 50px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.filter-section .main-filter .tabs .tab span:hover {
+  color: #004D79;
+}
+.filter-section .main-filter .tabs .tab .first-tab {
+  border-right: 1px solid #b4b7c9;
+}
+.filter-section .main-filter .tabs .selected {
+  border-bottom: 3px solid #004D79;
+  color: #004D79 !important;
+}
+.filter-section .main-filter .input-box {
+  width: 18%;
+  text-align: left;
+  margin: 10px 10px;
+}
+.filter-section .main-filter .input-box .text-field {
+  width: 100%;
+}
+.filter-section .main-filter .input-box .filter-label {
+  font-size: 15px !important;
+}
+.filter-section .main-filter .search-button {
+  background-color: #004D79;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 50px;
+  margin-top: 22px;
+  cursor: pointer;
+  font-family: "Gloock", serif !important;
+}
+
+@media (max-width: 1200px) {
+  .filter-section .main-filter {
+    width: 100% !important;
+    justify-content: flex-start;
+  }
+  .filter-section .main-filter h1 {
+    width: 100%;
+  }
+  .filter-section .main-filter .input-box {
+    width: 36%;
+  }
+}
+@media (max-width: 960px) {
+  .filter-section .main-filter .input-box {
+    width: 45%;
+  }
+  .filter-section .main-filter {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media (max-width: 600px) {
+  .filter-section .main-filter .sub-label {
+    font-size: 12px !important;
+  }
+  .filter-section .main-filter {
+    padding: 50px 16px !important;
+  }
+  .filter-section .main-filter h1 {
+    font-size: 28px !important;
+  }
+  .filter-section .main-filter .tabs .tab .first-tab,
+  .filter-section .main-filter .tabs .tab span {
+    padding: 0 25px !important;
+    font-size: 14px !important;
+  }
+  .filter-section .main-filter .input-box {
+    width: 43%;
+  }
+}
+@media (max-width: 380px) {
+  .filter-section .main-filter .input-box {
+    width: 90%;
+  }
+}/*# sourceMappingURL=index.css.map */

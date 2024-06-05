@@ -1,0 +1,121 @@
+.aboutdirectors-page {
+  .client-box {
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    min-height: 500px;
+    .desc-box {
+      text-align: left;
+      padding: 15px 25px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      h4 {
+        font-family: "Gloock", serif !important;
+        font-size: 30px;
+        font-weight: 500 !important;
+        margin-bottom: 0px;
+        width: 100%;
+      }
+      p {
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        color: #687693;
+        margin-bottom: 18px;
+        margin-top: 18px;
+      }
+      .job-label {
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        color: #004d79;
+        font-weight: 600;
+        display: block;
+      }
+      .icons-group {
+        padding: 0px 0px 0px 0px;
+        margin-top: 20px;
+        border-right: 1px solid white;
+        .s-icons{
+          margin-right: 20px;
+          cursor: pointer;
+          &:hover {
+            color: #004D79;
+            svg {
+              fill: #004D79 !important;
+            }
+            svg path {
+              fill: #004D79 !important;
+            }
+            svg plygon {
+              fill: #004D79 !important;
+            }
+            svg circle {
+              fill: #004D79 !important;
+            }
+          }
+        }
+        .icon {
+          margin-right: 20px;
+          width: 28px;
+          cursor: pointer;
+        }
+        :hover {
+          color: #004d79 !important;
+        }
+      }
+    }
+    .image-box {
+      min-height: 500px;
+    }
+  }
+}
+@media (max-width: 1700px) {
+  .aboutdirectors-page .client-box {
+    width: 75%;
+  }
+}
+@media (max-width: 1450px) {
+  .aboutdirectors-page .client-box {
+    width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .aboutdirectors-page .client-box {
+    width: 85%;
+  }
+}
+@media (max-width: 990px) {
+  .aboutdirectors-page .client-box {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .aboutdirectors-page .client-box .image-box .main-image {
+    width: 60% !important;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 760px) {
+  .aboutdirectors-page .client-box .image-box .main-image {
+    width: 80% !important;
+  }
+}
+@media (max-width: 600px) {
+  .aboutdirectors-page .client-box .desc-box {
+    padding: 20px 0px;
+  }
+  .aboutdirectors-page .client-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .aboutdirectors-page .client-box .image-box {
+    min-height: 400px !important;
+  }
+  .aboutdirectors-page .client-box .image-box .main-image {
+    height: 400px !important;
+    width: 100% !important;
+  }
+  .aboutdirectors-page .client-box .desc-box h4 {
+    font-size: 28px;
+  }
+}

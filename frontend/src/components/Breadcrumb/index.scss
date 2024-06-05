@@ -1,0 +1,47 @@
+.breadcrumb-box{
+  background-color: #edf4f7;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  .page-heading{
+    font-size: 40px;
+    font-family: "Gloock", serif !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .br-crumb{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .links{
+    color: #687693;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .main-page{
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
+@media (max-width: 600px) {
+  .breadcrumb-box{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .breadcrumb-box .page-heading{
+    font-size: 26px;
+  }
+  .breadcrumb-box .br-crumb .MuiBreadcrumbs-ol{
+    flex-wrap: nowrap !important;
+  }
+  .breadcrumb-box .br-crumb a,
+  .breadcrumb-box .br-crumb p{
+    font-size: 12px;
+  }
+}

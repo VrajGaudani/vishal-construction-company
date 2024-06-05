@@ -1,0 +1,71 @@
+.feedback-card {
+  background-color: #ffffff;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 8px;
+  padding: 20px 50px 30px;
+  text-align: left;
+  .feedback-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    .client-box {
+      display: flex;
+      align-items: center;
+      .profile-image {
+        max-width: 55px;
+        height: auto;
+        border-radius: 50%;
+      }
+      .feedback-description {
+        text-align: left;
+        margin-left: 15px;
+        .name {
+          font-size: 17px;
+          font-weight: 600;
+          font-family: "Josefin Sans", sans-serif !important;
+        }
+        .position {
+          font-size: 13px;
+          font-weight: 500;
+          display: block;
+          // margin-top: 5px;
+          color: #b4b7c9;
+          font-family: "Inter", sans-serif;
+        }
+      }
+    }
+    .quote {
+      font-size: 125px;
+      color: #a9a9c8;
+      line-height: 0.8;
+      font-family: "Josefin Sans", sans-serif !important;
+    }
+  }
+  .feedback-text {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif !important;
+    text-align: left;
+  }
+}
+@media (max-width: 700px) {
+  .feedback-card{
+    padding: 25px;
+  }
+  .feedback-card .feedback-header .client-box .profile-image{
+    width: 45px;
+  }
+  .feedback-card .feedback-header .client-box .feedback-description .position{
+    font-size: 12px;
+  }
+  .feedback-card .feedback-header .quote{
+    display: none;
+  }
+  .feedback-card .feedback-header .client-box{
+    width: 100% !important;
+  }
+  .feedback-card .feedback-text{
+    font-size: 15px;
+  }
+}

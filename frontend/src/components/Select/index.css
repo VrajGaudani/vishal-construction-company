@@ -1,0 +1,13 @@
+.select-input-div .MuiOutlinedInput-input {
+  border: none !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  color: #687693;
+}
+.select-input-div .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+.select-input-div .select-placeholder {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}/*# sourceMappingURL=index.css.map */
